@@ -17,3 +17,13 @@
 a {
   color: white !important;
 }
+
+.copick {
+  color: #70fdab;
+  animation: hue 2s linear infinite backwards;
+}
+@keyframes hue {
+  to {
+    filter: hue-rotate(1turn);
+  }
+}
