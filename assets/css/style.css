@@ -18,6 +18,11 @@ a {
   color: white !important;
 }
 
+a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+
 .copick {
   color: #70fdab;
   animation: hue 2s linear infinite backwards;
@@ -26,4 +31,13 @@ a {
   to {
     filter: hue-rotate(1turn);
   }
+}
+
+.badge-pill {
+  margin-bottom: 0.4rem;
+}
+
+.fillTheFridge,
+.fillTheFridge > .card-body {
+  background: #fff8f2 !important;
 }
