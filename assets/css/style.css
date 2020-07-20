@@ -41,3 +41,26 @@ a:hover {
 .fillTheFridge > .card-body {
   background: #fff8f2 !important;
 }
+
+/* .education-card {
+  border-radius: 1rem;
+  background: linear-gradient(225deg, #2f343a, #383e44);
+  box-shadow: -7px 7px 14px #282d31, 7px -7px 14px #40474f;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out,
+    background 0.2s ease-in-out;
+}
+
+.education-card:hover {
+  box-shadow: -7px 7px 14px #262a2f, 7px -7px 14px #424a51;
+  transform: perspective(300px) translateZ(3px);
+  background: linear-gradient(225deg, #343a40, #343a40);
+}
+*/
+.education-card {
+  border-bottom: 2px solid hsl(210, 10%, 20%);
+  border-left: none;
+  border-right: none;
+  border-radius: 0.5rem;
+  border-top: 1px solid hsl(210, 10%, 30%);
+  transition: border 0.2s ease-in-out;
+}
