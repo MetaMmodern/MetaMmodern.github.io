@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(52, 58, 64) !important;
+}
 .contact:hover {
   filter: grayscale(0%);
 }
@@ -63,4 +66,35 @@ a:hover {
   border-radius: 0.5rem;
   border-top: 1px solid hsl(210, 10%, 30%);
   transition: border 0.2s ease-in-out;
+}
+
+@media print {
+  .badge {
+    border: none !important;
+  }
+  .badge-pill {
+    border: none !important;
+  }
+  body {
+    background-color: white !important;
+  }
+  :not(.badge-pill),
+  :not(.badge) {
+    color: black !important;
+  }
+  .card,
+  .bg-dark,
+  .card-body,
+  .card-header,
+  .card-footer {
+    background: white !important;
+    background-color: white !important;
+  }
+  .project-card {
+    border: 1px solid black !important;
+  }
+  .download-cv-btn,
+  .card-text {
+    display: none;
+  }
 }

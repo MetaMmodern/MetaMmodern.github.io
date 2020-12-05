@@ -7,13 +7,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <link
       rel="icon"
       type="image/png"
@@ -29,10 +30,10 @@
     <title>Metamodern CV</title>
   </head>
 
-  <body class="bg-dark text-white">
+  <body class="text-white">
     <div class="container">
       <div class="row mb-3">
-        <div class="col-6 col-md-6 contacts mt-3 order-2 order-sm-1">
+        <div class="col-6 col-md-6 contacts mt-5 order-2 order-sm-1">
           <h2 class="d-none d-sm-block">Contacts</h2>
           <div class="accordion d-block d-sm-none border-0" id="myAccordion">
             <div class="card bg-dark">
@@ -308,8 +309,8 @@
               </div>
             </div>
           </div>
-          <div class="ml-auto w-100 mt-3 mt-sm-0">
-            <a href="/assets/cv.jpg" target="_blank">
+          <div class="ml-auto w-100 mt-3 mt-sm-0 download-cv-btn">
+            <a href="/Metamodern_CV.pdf" target="_blank">
               <button class="btn text-white btn-dark w-100">
                 Download in PDF
               </button>
@@ -317,7 +318,7 @@
           </div>
         </div>
         <div
-          class="col-6 col-sm-4 col-md-5 base_primary mt-3 offset-sm-1 order-1 order-sm-2 d-flex flex-column"
+          class="col-6 col-sm-4 col-md-5 base_primary mt-5 offset-sm-1 order-1 order-sm-2 d-flex flex-column"
         >
           <div>
             <h2><strong>Shabanov Bunyamin</strong></h2>
@@ -351,6 +352,7 @@
             <span class="badge badge-pill badge-primary">Koa</span>
             <span class="badge badge-pill badge-primary">JavaScript</span>
             <span class="badge badge-pill badge-primary">Bootstrap 4</span>
+            <span class="badge badge-pill badge-primary">Sass</span>
             <span class="badge badge-pill badge-primary">HTML5</span>
             <span class="badge badge-pill badge-primary">CSS3</span>
             <span class="badge badge-pill badge-primary">Git</span>
@@ -363,7 +365,45 @@
           <h2>Projects</h2>
           <div class="row">
             <div class="col-12 col-sm-6 mb-3">
-              <div class="card bg-dark border h-100 w-100">
+              <div class="card bg-dark border h-100 w-100 project-card">
+                <h4 class="card-header ml-0">Beauty Links</h4>
+                <div class="card-body">
+                  <p class="card-text">
+                    A project for searching beauty masters from all over the
+                    country. Made in team with @mychail_kosiuk and @vilkup.
+                  </p>
+                  <h6>
+                    <span class="badge badge-pill badge-info">React</span>
+                    <span class="badge badge-pill badge-info">Google Maps</span>
+                    <span
+                      class="badge badge-pill text-white"
+                      style="background-color: #cc6699"
+                      >SASS</span
+                    >
+                    <span class="badge badge-pill badge-primary"
+                      >Responsive</span
+                    >
+                  </h6>
+                </div>
+                <div class="card-footer bg-dark text-right">
+                  <a
+                    href="https://beautylinks.com/"
+                    class="card-link ml-0"
+                    target="_blank"
+                    >Open Beauty Links</a
+                  >
+                  <br />
+                  <a
+                    href="https://github.com/MykhailKo/beauty-links"
+                    class="card-link"
+                    target="_blank"
+                    >Open GitHub repository</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 mb-3">
+              <div class="card bg-dark border h-100 w-100 project-card">
                 <h4 class="card-header ml-0">Pomodorro</h4>
                 <div class="card-body">
                   <p class="card-text">
@@ -371,7 +411,7 @@
                     the Pomodorro 🍅 technique: work hard for 20 minutes and
                     then have a 5 minute rest.
                   </p>
-                  <h5>
+                  <h6>
                     <span class="badge badge-pill badge-info">React</span>
                     <span class="badge badge-pill badge-primary"
                       >Material UI</span
@@ -383,7 +423,7 @@
                     <span class="badge badge-pill badge-primary"
                       >Responsive</span
                     >
-                  </h5>
+                  </h6>
                 </div>
                 <div class="card-footer bg-dark text-right">
                   <a
@@ -403,7 +443,9 @@
               </div>
             </div>
             <div class="col-12 col-sm-6 mb-3">
-              <div class="card fillTheFridge text-dark h-100 w-100">
+              <div
+                class="card fillTheFridge text-dark h-100 w-100 project-card"
+              >
                 <h4 class="card-header text-primary ml-0">Fill the Fridge</h4>
                 <div class="card-body">
                   <p class="card-text">
@@ -417,7 +459,7 @@
                     >
                     as a Course Work in 2020.
                   </p>
-                  <h5>
+                  <h6>
                     <span class="badge badge-pill badge-primary">HTML5</span>
                     <span class="badge badge-pill badge-primary">CSS3</span>
                     <span class="badge badge-pill badge-primary"
@@ -430,7 +472,7 @@
                     <span class="badge badge-pill badge-info">Webpack</span>
                     <span class="badge badge-pill badge-primary">Node.js</span>
                     <span class="badge badge-pill badge-primary">Koa.js</span>
-                  </h5>
+                  </h6>
                 </div>
                 <div class="card-footer text-right">
                   <a
@@ -450,7 +492,7 @@
               </div>
             </div>
             <div class="col-12 col-sm-6 mb-3">
-              <div class="card bg-dark border h-100 w-100">
+              <div class="card bg-dark border h-100 w-100 project-card">
                 <h4 class="card-header bg-dark">
                   <span class="copick"> ColorPick </span>
                 </h4>
@@ -461,7 +503,7 @@
                     the palette and image scaling. Made by me and
                     <a href="https://t.me/kemarskiy">@kemarskiy</a>
                   </p>
-                  <h5>
+                  <h6>
                     <span class="badge badge-pill badge-primary">HTML5</span>
                     <span class="badge badge-pill badge-primary">CSS3</span>
                     <span class="badge badge-pill badge-danger"
@@ -474,7 +516,7 @@
                       >Vanilla JS</span
                     >
                     <span class="badge badge-pill badge-primary">jQuery</span>
-                  </h5>
+                  </h6>
                 </div>
                 <div class="card-footer bg-dark text-right">
                   <a
@@ -494,7 +536,7 @@
               </div>
             </div>
             <div class="col-12 col-sm-6 mb-3">
-              <div class="card bg-dark border-white h-100 w-100">
+              <div class="card bg-dark border-white h-100 w-100 project-card">
                 <h4 class="card-header bg-dark">CorpoLand</h4>
                 <div class="card-body">
                   <p class="card-text">
@@ -502,7 +544,7 @@
                     touch slider with hardware accelerated transitions and
                     amazing native behavior.
                   </p>
-                  <h5>
+                  <h6>
                     <span class="badge badge-pill badge-primary">HTML5</span>
                     <span class="badge badge-pill badge-primary">CSS3</span>
                     <span class="badge badge-pill badge-success"
@@ -513,7 +555,7 @@
                     >
                     <span class="badge badge-pill badge-info">Swiper.js</span>
                     <span class="badge badge-pill badge-primary">jQuery</span>
-                  </h5>
+                  </h6>
                 </div>
                 <div class="card-footer bg-dark text-right">
                   <a
@@ -526,7 +568,7 @@
               </div>
             </div>
             <div class="col-12 col-sm-6 mb-3">
-              <div class="card bg-dark border-white">
+              <div class="card bg-dark border-white project-card">
                 <h4 class="card-header bg-dark">Bino</h4>
                 <div class="card-body">
                   <p class="card-text">
