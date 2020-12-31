@@ -113,7 +113,7 @@ a:hover {
   .projects > .row > div:last-child {
     display: block;
   }
-  .projects > .row > div::nth-child(-n + 3) > .card > .card-header:after {
+  .projects > .row > div:nth-child(-n + 3) > .card > .card-header:after {
     content: "(Last Project)";
     font-size: 1rem;
     border-radius: 0.5rem;
