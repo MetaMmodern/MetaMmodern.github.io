@@ -68,11 +68,14 @@ a:hover {
   transition: border 0.2s ease-in-out;
 }
 
-.workDiv {
-  /* border: 1px solid #28a745; */
-  /* background: linear-gradient(to top, #28a745, transparent); */
+.card-img-top {
+  /* width: 100%; */
+  height: 20vw;
+  object-fit: contain;
 }
-
+.qr-col {
+  display: none;
+}
 @media print {
   .badge {
     border: none !important;
@@ -98,8 +101,21 @@ a:hover {
   .project-card {
     border: 1px solid black !important;
   }
-  #download-cv-btn,
-  .card-text {
+  #download-cv-btn {
     display: none;
+  }
+  .projects > .row > div {
+    display: none;
+  }
+  .projects > .row > div:nth-child(-n + 2) {
+    display: block;
+  }
+  .projects > .row > div:nth-child(2) > .card > .card-header:after {
+    content: "(Last Project)";
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    display: block;
+    padding: 3px;
   }
 }
