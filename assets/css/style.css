@@ -98,7 +98,7 @@ a:hover {
   .project-card {
     border: 1px solid black !important;
   }
-  .download-cv-btn,
+  #download-cv-btn,
   .card-text {
     display: none;
   }
