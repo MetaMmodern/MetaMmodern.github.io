@@ -1,5 +1,8 @@
 body {
-  background-color: rgb(52, 58, 64) !important;
+  background-color: #031120 !important;
+}
+.bg-dark {
+  background-color: #031120 !important;
 }
 .contact:hover {
   filter: grayscale(0%);
