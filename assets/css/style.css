@@ -43,10 +43,10 @@ a:hover {
   margin-bottom: 0.4rem;
 }
 
-.fillTheFridge,
+/* .fillTheFridge,
 .fillTheFridge > .card-body {
   background: #fff8f2 !important;
-}
+} */
 
 /* .education-card {
   border-radius: 1rem;
@@ -79,49 +79,52 @@ a:hover {
 .qr-col {
   display: none;
 }
-@media print {
-  .badge {
-    border: none !important;
-  }
-  .badge-pill {
-    border: none !important;
-  }
-  body {
-    background-color: white !important;
-  }
-  :not(.badge-pill),
-  :not(.badge) {
-    color: black !important;
-  }
-  .card,
-  .bg-dark,
-  .card-body,
-  .card-header,
-  .card-footer {
-    background: white !important;
-    background-color: white !important;
-  }
-  .project-card {
-    border: 1px solid black !important;
-  }
-  #download-cv-btn {
-    display: none;
-  }
-  .projects > .row > div {
-    display: none;
-  }
-  .projects > .row > div:nth-child(-n + 3) {
-    display: block;
-  }
-  .projects > .row > div:last-child {
-    display: block;
-  }
-  .projects > .row > div:nth-child(-n + 3) > .card > .card-header:after {
-    content: "(Last Project)";
-    font-size: 1rem;
-    border-radius: 0.5rem;
-    margin-top: 0.5rem;
-    display: block;
-    padding: 3px;
-  }
+/* @media print { */
+.badge {
+  border: none !important;
 }
+.badge-pill {
+  border: none !important;
+}
+body {
+  background-color: white !important;
+}
+
+:not(.badge) {
+  color: black !important;
+}
+/* :not(.badge-pill) {
+  color: black !important;
+} */
+.card,
+.bg-dark,
+.card-body,
+.card-header,
+.card-footer {
+  background: white !important;
+  background-color: white !important;
+}
+.project-card {
+  border: 1px solid black !important;
+}
+#download-cv-btn {
+  display: none;
+}
+/* .projects > .row > div {
+  display: none;
+}
+.projects > .row > div:nth-child(-n + 3) {
+  display: block;
+}
+.projects > .row > div:last-child {
+  display: block;
+}
+.projects > .row > div:nth-child(-n + 3) > .card > .card-header:after {
+  content: "(Last Project)";
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  display: block;
+  padding: 3px;
+} */
+/* } */
